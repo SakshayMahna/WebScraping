@@ -18,13 +18,23 @@ python main.py
 ```
 
 ## Scrapy
-`WebScraping-Scrapy` contains web scraping using Scrapy. Video Games present on Flipkart have been scraped.
+`WebScraping-Scrapy` contains web scraping using Scrapy. There are 2 different scraping projects in this.
 
+### Video Games on Flipkart
 Run the program using:
 
 ```bash
 spider crawl flipkart_games
 ```
+
+### Watches on Amazon
+Run the program using:
+
+```bash
+spider crawl amazon_watches
+```
+
+**For scraping through Amazon, User-Agents and Proxy methods have also been used**
 
 ## Selenium
 `WebScraping-Selenium` contains web scraping using Selenium. Videos present on a Gaming Channel (Insym) have been scraped.
